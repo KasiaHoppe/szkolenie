@@ -1,0 +1,30 @@
+﻿@model Blog.Models.Wpis
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="article">
+    <div class="article-header">
+        <p class="article-title">Nagłówek artykułu @Model.Tytul </p>
+        <p class="article-author">Autor: @Model.Autor</p>
+    </div>
+    <div class="article-content">
+        <p>@Model.Tresc </p>
+
+    </div>
+
+    <div class="article-footer">
+        <p class="article-date">Data dodatnia @Model.DataDodania</p>
+        @*<div class="row text-center">
+            <div class="col">
+                <a href="#">Edytuj</a>
+            </div>
+            <div class="col">
+                <a href="#">Usuń</a>
+            </div>
+        </div>*@
+    </div>
+</div>
+

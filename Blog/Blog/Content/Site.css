@@ -1,0 +1,92 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*dodany własny*/
+.menu p {
+    color: hotpink;
+}
+
+a {
+    color: hotpink;
+}
+
+.separator p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.main {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.article-title {
+    font-size: 1.5em;
+    color: deeppink;
+    margin-bottom: 0;
+}
+
+.article-author {
+    color: lightpink;
+    font-style: italic;
+}
+
+.article-content {
+    text-justify: inter-character;
+    text-align: justify;
+}
+
+.article-footer {
+    text-align: right;
+    font-size: 0.7em;
+}
+
+.navbar-inverse {
+    background-color: white !important;
+    border-color: white !important;
+}
+a.image-link {
+    margin: 0 auto;
+    background: url(../Content/img/logo.png) no-repeat top left;
+    display: block;
+    width: 354px;
+    height: 100px;
+    text-indent: -9999px; /* hides the link text */
+}
+
+.article {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.navbar-login {
+    margin-right:10px;
+}
+
+.navbar-login li {
+    margin-right: 10px;
+}
